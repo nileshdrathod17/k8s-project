@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: nilesh
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: nilesh
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nilesh
-        image: nileshrathod17/app:v1
+        image: nileshrathod17/dockerproject:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
