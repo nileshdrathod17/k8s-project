@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nilesh
-        image: nileshrathod17/medical:v1
+        image: nileshrathod17/app:v1
         ports:
         - containerPort: 3000   # Use port 3000
 
