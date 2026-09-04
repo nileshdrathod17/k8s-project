@@ -16,7 +16,6 @@ spec:
       containers:
       - name: nilesh
         image: nileshrathod17/dockerproject:latest
-
         ports:
         - containerPort: 3000   # Use port 3000
 
